@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body style="background-color: darksalmon;">
+    <h1 align="center" style="color:blue;">Мой первый сайт</h1>
+    <hr color="red">
+    <div>
+        <form action="auth.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Введите Имя">
+            <input type="password" name="pswrd" id="pswrd" placeholder="Введите пароль">
+            <input type="submit"  id="submit" value="Войти">
+            <input type="reset" value="Сброс">
+        </form>
+    </div>
+    <h2>Мои контакты
+        +375295906894(МТС)
+    </h2>
+    <div>
+
+    
+<h3> Я в соц. сетях</h3>
+<ul>
+<li><a href="http://vk.com/id92677084" target="_blank"> Я в ВК</a></li>
+<li><a href="http://телеграм.онлайн"> Я в Телеграмме</a></li>
+</ul>
+</div>
+</div>
+<h2>Обо мне</h2>
+<div>
+    <img src="iI4E4YoAlq0.jpg" alt="Мой аватар" title="Сергей Аблецов" border="2">
+    <div>
+        <h3>Моя биография</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi debitis perferendis nobis! Enim perferendis quisquam minus delectus nemo quibusdam qui illum exercitationem in, adipisci commodi, totam doloremque, ut eius.</p>
+    </div>
+</div>
+<div>
+    <h2 class="section-title">Заказать у меня сайт</h2>
+    <form action="order.php method=post">
+        <div>
+        <Label> 
+            <span>Имя клиента</span>
+        <input type="text" name="client_name" placeholder="Введите имя">
+    </Label>
+</div>
+    <div>
+    <label> 
+        <span>Введите почту</span>
+        <input type="text" name="client_email" placeholder="Введите email">
+    </label>
+</div>
+<div>
+    <span>Выберите пол</span>
+        <input type="radio" name="gendre" value="male"> М
+        <input type="radio" name="gendre" value="female"> Ж
+    </div>
+    <div>
+        <label>
+            <span>Дополнительные возможности</span>
+            <input type="checkbox" name="extra" value="adaptive">
+            Адаптивность
+            <input type="checkbox" name="extra" value="hosting" checked>
+            Установка на хостинг
+            <input type="checkbox" name="extra" value="support">
+            Дальнейшая поддержка
+            <input type="checkbox" name="extra" value="admin">
+            Установка админ-панели
+        </label>
+    </div>
+    <div>
+        <label>
+            <span>Тип сайта</span>
+            <select name="type">
+            <option value="eshop">Интернет-магазин</option>
+            <option value="landing">Лэндинг</option>
+            <option value="card">Сайт-визитка</option>
+        </select>
+        </label>
+    </div>
+    <div>
+        <label>
+        </div>
+            <span>Приложите экскиз</span>
+            <input type="File" name="file">
+         <input type="hidden" name="time" value="time_count">
+            <div>
+                <label>
+                    <span>Ваш коментарий</span>
+                    <textarea name="comment" cols="30" rows="10" maxlength="300"></textarea>
+                </label>
+            </div>
+            <input type="reset" value="Сброс">
+            <button name="submit">Отправить</button>
+        </div>
+        </label>
+
+    </form>
+</div>
+</body>
+</html>

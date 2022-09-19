@@ -1,0 +1,28 @@
+@charset "UTF-8";
+p{
+    color: coral;
+    background-color: blue;
+}
+h1{
+    color: aqua;
+    background-color: darkmagenta;
+}
+#bro{
+    color: gold;
+    background-color: black;
+}
+/* коментарий */
+/*
+.ok {
+    color: blueviolet;
+    background-color: brown;
+}
+*/
+h1.ok {
+    color: blue;
+    background-color: blueviolet;
+}
+.tt{
+    color: chocolate;
+    background-color: crimson;
+}
